@@ -24,3 +24,9 @@
 .register-bg{
    background-color: rgb(34, 172, 227);
 }
+.fa-quote-right{
+	font-size: 100px;
+}
+.fa-star, .fa-star-half-stroke{
+	color: rgb(227, 184, 76);
+}
