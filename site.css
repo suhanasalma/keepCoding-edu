@@ -24,9 +24,33 @@
 .register-bg{
    background-color: rgb(34, 172, 227);
 }
-.fa-quote-right{
-	font-size: 100px;
-}
 .fa-star, .fa-star-half-stroke{
 	color: rgb(227, 184, 76);
+}
+.fa-circle-chevron-right, .fa-circle-chevron-left{
+	font-size: 25px;
+	color:skyblue;
+}
+
+.fa-circle-chevron-right:hover, .fa-circle-chevron-left:hover{
+	color: darkblue;
+}
+
+.navbar a:hover{
+	box-shadow: inset 200px 0 0 0 #54b3d6;
+  color: white;
+}
+
+.ho:hover{
+	cursor: pointer;
+	transition: all 0.3s ease;
+	transform: scale(1.1);
+	box-shadow: 5px 10px #888888;
+}
+
+.bg:hover{
+	background-color: bisque;
+}
+.fa-facebook:hover{
+	cursor: pointer;
 }
